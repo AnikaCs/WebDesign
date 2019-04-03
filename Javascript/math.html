@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function myFunction()
+	{
+         var a,b,c,x;
+         a = document.getElementById('value1').value;
+         b = document.getElementById('value2').value;
+         c = document.getElementById('value3').value;
+         x=(a/(b-c));
+         document.getElementById("demo").innerHTML=x;
+
+
+	}
+</script>	
+</head>
+
+<body>
+ 
+  The question Math Is x=(a/(b-c))<br><br>	
+  Please Enter the values: <br><br>
+  Enter the Value of A:<br>
+  <input type="input" id="value1" ><br>
+  Enter the Value of B:<br>
+  <input type="input" id="value2" ><br>
+  Enter the Value of C:<br>
+  <input type="input" id="value3" ><br>
+  <button onclick="myFunction()">Submit</button>
+
+  <p id="demo">
+  	Answer Here!
+  </p>	
+  	
+  
+
+  	
+</body>	 
+</html>

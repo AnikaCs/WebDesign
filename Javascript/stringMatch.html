@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function myFunction()
+	{
+
+		
+       var x; 
+        x = document.getElementById('value1').value;
+       
+       
+        if((x=="salina")||(x=="sujala"))
+        	  document.getElementById("demo").innerHTML ='You are telling truth!! '+x;
+        else
+              document.getElementById("demo").innerHTML ='You are lying..i Know your Name..lol' ; 	
+       
+
+	}
+</script>
+<style type="text/css">
+  body{
+      background-color:lightpink;
+
+  }	
+</style>	
+</head>
+<body>
+Put Your Name...<br><br>	
+<input type="input" id="value1" ><br><br>
+<button onclick="myFunction()">Submit</button>
+<br>
+<br>
+<p id= "demo" style="background-color:gray;color:white;font-weight: bold; height:800px;width:800px;font-size:50px;">
+	
+</p>
+	
+</body>	
+</html>
